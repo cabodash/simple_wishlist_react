@@ -1,0 +1,27 @@
+{
+  "name": "react_para_principiantes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "format": "prettier --write \"*.{js,jsx,json,css}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wish": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "parcel-bundler": "^1.12.5"
+  },
+  "prettier": {
+    "semi": true
+  }
+}

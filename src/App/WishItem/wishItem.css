@@ -1,0 +1,25 @@
+.wishitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5px 10px;
+}
+
+.wishitem__input {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.wishitem__input:checked {
+    background-color: rgb(42, 0, 119);
+}
+
+.wishitem__label {
+    text-decoration: none;
+}
+
+.wishitem__input:checked+.wishitem__label {
+    text-decoration: line-through;
+}
